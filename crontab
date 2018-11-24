@@ -1,0 +1,2 @@
+*/1 * * * * /usr/bin/php  /var/www/html/admin/cli/cron.php >/dev/null
+* * * * * root echo "Hello world" >> /var/log/cron.log 2>&1
