@@ -1,1 +1,2 @@
-*/1 * * * * /usr/bin/php /var/www/html/admin/cli/cron.php >/dev/null
+*/1 * * * * root /usr/bin/php /var/www/html/admin/cli/cron.php >/dev/null
+*/1 * * * * root curl --silent http://localhost:8080/cms/cron/mail >/dev/null
